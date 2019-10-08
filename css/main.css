@@ -30,6 +30,13 @@ html {
   bottom: 1em;
 }
 
+.polaroid:first-child {
+  z-index: 1;
+  transform: rotate(-10deg);
+  left: 20%;
+  top: 100px;
+}
+
 .polaroid:nth-child(2) {
   z-index: 3;
   transform: rotate(5deg);
